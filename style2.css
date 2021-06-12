@@ -20,7 +20,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(kit3.jpg);
+    background: url(style/kit3.jpg);
     background-size: cover;
     
 
@@ -38,7 +38,7 @@ p{
 }
 .banner .content p{
     font-size: 1em;
-    color: #fff;
+    color: black;
     
 }
 
