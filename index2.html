@@ -13,11 +13,11 @@
             
         </div>
         <ul>
-            <li><a class="active" href="home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="menu">Menu</a></li>
-            <li><a href="ordernow">Order</a></li>
-            <li><a href="contactus">Contact us</a></li>
+            <li><a class="active" href="#banner">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#contact">Contact us</a></li>
         </ul>
     </nav></header>
 
@@ -107,11 +107,12 @@
   
 
    </section>
+   
    <script type="text/javascript">
-       window.addEventListener('scroll', function(){
-           const header= document.querySelector('header');
-           header.classlist.toggle("sticky", window.scrollY > 0);
-       })
-   </script>
+    window.addEventListener('scroll', function(){
+        const header= document.querySelector('header');
+        header.classlist.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
 </body>
 </html>
