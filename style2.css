@@ -4,10 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mate SC', serif;
+    scroll-behavior: smooth;
 }
 p{
     font-weight: 300;
     color: #111;
+   
 
 }
 body{
@@ -227,3 +229,4 @@ input,textarea ,select{
     
      letter-spacing: 6px;
  }
+ 
