@@ -9,9 +9,12 @@
 p{
     font-weight: 300;
     color: #111;
+   
 
 }
-
+body{
+    min-height: 1000px;
+}
 
 .banner
 {
@@ -34,7 +37,7 @@ p{
 
 .banner .content h2 {
     font-size: 5em;
-    color: #ff0157;
+    color: #990838;
 
 }
 .banner .content p{
@@ -101,6 +104,7 @@ nav ul li a:hover{
 nav ul li .active{
     color: yellow;
 }
+
 section{
     padding: 100px;
 }
@@ -110,6 +114,9 @@ section{
     display: flex;
     justify-content: space-between;
 }
+
+
+
   
 .row .col50{
     position: relative;
@@ -176,3 +183,50 @@ section{
     height: 100%;
     object-fit: cover;
 }
+.video{
+    background:url("video.mp4");
+}
+h2{
+    color:#ff0157;
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.767);
+    background: transparent;
+    padding: 15px;
+    max-width: 900px;
+    margin: auto;
+    height:320px;
+    text-align: center;
+   
+}
+
+input,textarea ,select{ 
+    width: 40%;
+    margin: 11px ;
+    padding: 7px;
+    font-size: 15px;
+    border: 1px solid rgb(214, 191, 191);
+    border-radius: 6px;
+    
+}
+.button {
+   
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.9s;
+ }
+ .button:hover{
+    
+     letter-spacing: 6px;
+ }
+ 

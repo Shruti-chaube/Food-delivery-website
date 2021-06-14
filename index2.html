@@ -13,21 +13,26 @@
             
         </div>
         <ul>
+            
             <li><a class="active" href="#banner">Home</a></li>
-            <li><a href="#about">About us</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#order">Order</a></li>
             <li><a href="#contact">Contact us</a></li>
+
         </ul>
     </nav></header>
 
    <section class="banner" id="banner">
        <div class="content">
            <h2>Always Choose Best</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consectetur, quaerat praesentium optio placeat dolore labore deleniti hic amet asperiores similique fuga aliquid. Qui adipisci, quibusdam sequi magnam tempora corrupti. </p>
-                  <a href="#" class="btn">Our Menu</a>
+                    <p>Lets Satisfy Your Hunger With Our Tasty Dishes </p>
+                  <a href="#menu" class="btn">Our Menu</a><br><br>
+                 
        </div>
+       
    </section>
+
    <section class="about" id="about">
        <div class="row">
        <div class="col50">
@@ -37,7 +42,7 @@
 <div class="col50">
     <div class="imgBx">
         <img src="style/aboutus.jpg">
-
+    
 </div>
 </div>
 </div>
@@ -45,7 +50,7 @@
    <section class="menu" id="menu">
    <div class="title">
     <h2 class="titleText">Our<span>M</span>enu</h2>
-    <h1>hello</h1>
+    
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, inciduntgt</p>
 
 
@@ -57,6 +62,7 @@
            </div>
            <div class="text">
                <h3>Special Burgers</h3>
+               <h4>Price:129Rs</h>
            </div>
        </div>
        <div class="box">
@@ -65,6 +71,7 @@
         </div>
         <div class="text">
             <h3>Special Dosa</h3>
+            <h4>Price:299Rs</h>
         </div>
     </div>
     <div class="box">
@@ -73,6 +80,7 @@
         </div>
         <div class="text">
             <h3>Special Cakes</h3>
+            <h4>Price:149Rs</h>
         </div>
     </div>
     <div class="box">
@@ -81,6 +89,7 @@
         </div>
         <div class="text">
             <h3>Special Ice-Cream</h3>
+            <h4>Price:99Rs</h>
         </div>
     </div>
     <div class="box">
@@ -89,6 +98,7 @@
         </div>
         <div class="text">
             <h3>Special Momos</h3>
+            <h4>Price:150Rs</h>
         </div>
     </div>
     <div class="box">
@@ -97,22 +107,94 @@
         </div>
         <div class="text">
             <h3>Special Pav Bhaji</h3>
+            <h4>Price:  Rs150</h>
         </div>
     </div>
-
+    <div class="box">
+        <div class="imgBx">
+            <img src="style/pizza1.jpg">
+        </div>
+        <div class="text">
+            <h3>Special Pizzas</h3>
+            <h4>Price:  399-/onlyRs</h>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="style/thali1.jpg">
+        </div>
+        <div class="text">
+            <h3>Special Full Thali</h3>
+             <h4>Price:150Rs</h>
+        </div>
+    </div>
    </div>
+   
    <div class="title">
-    <a href="#" class="btn">View All</a>
+    <a href="#menu" class="btn">View All</a>
    </div>
-  
 
    </section>
-   
-   <script type="text/javascript">
-    window.addEventListener('scroll', function(){
-        const header= document.querySelector('header');
-        header.classlist.toggle("sticky", window.scrollY > 0);
-    });
-    </script>
+  
+ 
+
+  
+          <section  class="order" id="order">
+           <h2 class="titleText"><span>O</span>rder now</h2>
+           <div class="container">
+           <form action="index.php" method="post">
+             <input type="text" name="Name" id="name"placeholder="Your Name" required> 
+             <label for="Choice"></label>
+             <select id="choice" name=Your meal>
+               <option value=" Veg">Choose your Meal</option>
+                <option value=" Veg">pizza</option>
+                <option value="Veg">Noodles</option>
+                <option value="Veg">Burger</option>
+                <option value="Veg">Dosa</option>
+                <option value="Veg">cake</option>
+                <option value="Veg">momos</option>
+                <option value="Veg">pav-bhaji</option>
+                <option value="Veg">full thali</option>
+             </select><br>
+            
+            <select id="choice" name="food">
+               <option value="Non Veg">Non Veg</option>
+               <option value="Veg">Veg</option>
+            </select><br>
+             <input type="Phone" name="phone" id="name"placeholder="Your Phone number"required>
+             <input type="email" name="Email" id="email"placeholder="Your Email" required> 
+             <label for="Choice"></label>
+             <input type="text" name="text" id="address"placeholder="Your Address"required><br>
+              <button class="button">Order</button>
+           </form><br><br>
+           <marquee direction="right"><i>Upto 50% off ORDER NOW</i></marquee>
+           <p id="demo"></p>
+
+           <script>
+           const d = new Date();
+           document.getElementById("demo").innerHTML = d;
+           </script>
+          </div>
+         
+
+
+        
+</section>
+<section  class="contact" id="contact">
+    <h2 class="titleText"><span>C</span>ontact us</h2>
+    <div class="container">
+        <form action="" method="post">
+            <input type="text" name="Name" id="name"placeholder="Your Name" required> 
+             <label for="Choice"></label>
+             <input type="email" name="Email" id="email"placeholder="Your Email" required> 
+             <label for="Choice"></label>
+             <input type="Phone" name="phone" id="name"placeholder="Your Phone number"required>
+             <input type="text" name="feedback" id="feedback"placeholder="Your Feedback"required><br>
+              <button class="button">Submit</button>
+           </form><br>
+
+      
+
+
 </body>
 </html>
