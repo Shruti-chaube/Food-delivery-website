@@ -5,16 +5,13 @@
     box-sizing: border-box;
     font-family: 'Mate SC', serif;
     scroll-behavior: smooth;
+    
 }
 p{
     font-weight: 300;
     color: #111;
-   
+}
 
-}
-body{
-    min-height: 1000px;
-}
 
 .banner
 {
@@ -24,7 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(style/kit3.jpg);
+    background: url(kit3.jpg);
     background-size: cover;
     
 
@@ -37,7 +34,7 @@ body{
 
 .banner .content h2 {
     font-size: 5em;
-    color: #990838;
+    color: rgb(185, 58, 58);
 
 }
 .banner .content p{
@@ -102,7 +99,7 @@ nav ul li a:hover{
     color: grey;
 }
 nav ul li .active{
-    color: yellow;
+    color: rgb(185, 58, 58);
 }
 
 section{
@@ -114,7 +111,9 @@ section{
     display: flex;
     justify-content: space-between;
 }
-
+section p{
+    font-size: 23px;
+}
 
 
   
@@ -127,10 +126,10 @@ section{
     color: #111;
     font-size: 2em;
     font-weight: 300;
-
+    margin-top: 60px;
 }
 .titleText span{
-    color: #ff0157;
+    color: brown;
     font-weight: 700;
     font-size: 1.5em;
 
@@ -183,11 +182,8 @@ section{
     height: 100%;
     object-fit: cover;
 }
-.video{
-    background:url("video.mp4");
-}
 h2{
-    color:#ff0157;
+    color:brown;
     font-size: 50px;
     text-align: center;
 }
@@ -200,7 +196,7 @@ h2{
     margin: auto;
     height:320px;
     text-align: center;
-   
+   margin-top: 80px;
 }
 
 input,textarea ,select{ 
@@ -216,7 +212,7 @@ input,textarea ,select{
    
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: brown;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -228,5 +224,9 @@ input,textarea ,select{
  .button:hover{
     
      letter-spacing: 6px;
+ }
+ .contact{
+    
+     align-items: left;
  }
  
