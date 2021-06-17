@@ -6,23 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food and restaurant</title>
     <link rel="stylesheet" href="style2.css">
+  
 </head>
-<body><header>
-    <nav>
-        <div class="logo">
-            
-        </div>
+<body>
+    <nav >
+  
         <ul>
             
             <li><a class="active" href="#banner">Home</a></li>
             <li><a class="active" href="#about">About</a></li>
             <li><a class="active" href="#menu">Menu</a></li>
-            <li><a class="active"  href="#order">Order</a></li>
-            <li><a class="active"  href="#contact">Contact us</a></li>
+            <li><a class="active" href="#order">Order</a></li>
+            <li><a class="active"  href="#feedback">Feedback</a></li>
 
         </ul>
-    </nav></header>
-
+    </nav>
+ 
    <section class="banner" id="banner">
        <div class="content">
            <h2>Live, love, eat</h2>
@@ -46,12 +45,12 @@
 </div>
 </div>
 </div>
-
+   </section>
    <section class="menu" id="menu">
    <div class="title">
     <h2 class="titleText">Our<span>M</span>enu</h2>
     
-    <p></p>
+    
 
 
    </div>
@@ -111,10 +110,11 @@
             <h3>Special Full Thali</h3>
              <h4>Price:150Rs</h>
         </div>
+       
     </div>
    </div>
-   <div class="box">
-       
+  
+    
    
    <div class="title">
     <a href="menu.html" class="btn">View All</a>
@@ -142,12 +142,21 @@
                 <option value="Veg">pav-bhaji</option>
                 <option value="Veg">full thali</option>
              </select><br>
-             <input type="Phone" name="phone" id="name"placeholder="Your Phone number"required>
-            <select id="choice" name="food">
-               <option value="Non Veg">Non Veg</option>
-               <option value="Veg">Veg</option>
-            </select><br>
-             
+             <input type="text" name="phone" id="name"placeholder="Your Phone number"required>
+             <label for="choice"></label>
+             <select id="choice" name=Your meal>
+               <option value=" Veg">Quantity</option>
+                <option value=" Veg">1</option>
+                <option value="Veg">2</option>
+                <option value="Veg">3</option>
+                <option value="Veg">4</option>
+                <option value="Veg">5</option>
+                <option value="Veg">6</option>
+                <option value="Veg">7</option>
+                <option value="Veg">8</option>
+                <option value="Veg">9</option>
+                <option value="Veg">10</option>
+             </select><br>
              <input type="email" name="Email" id="email"placeholder="Your Email" required> 
              <label for="Choice"></label>
              <input type="text" name="text" id="address"placeholder="Your Address"required><br>
@@ -166,25 +175,20 @@
 
         
 </section>
-<footer>
-<section  class="contact" id="contact">
-
-    <h2 class="titleText">Contact <span>Us</span></h2>
-    <div class ="contact1">
-    <div class="row">
-        <div class="column">
-          <h3>Shara yasmin </h3>
-          <p>Phone no: 9757033144</p>
-          <p>Email id : shrutichaube27@gmail.com </p>
-        </div>
-        <div class="column">
-          <h3>Shruti chaube</h3>
-          <p>Phone no :  8805920771 </p>
-          <p>Email id : shrutichaube27@gmail.com </p>
-          
-        </div>
-      </div>
-     </div>
-    </footer>
+<section  class="feedback" id="feedback">
+    <h2 class="titleText"><span>F</span>eedback</h2>
+    <div class="container">
+        <form action="" method="post">
+            <input type="text" name="Name" id="name"placeholder="Your Name" required> 
+             <label for="Choice"></label>
+             <input type="email" name="Email" id="email"placeholder="Your Email" required> 
+             <label for="Choice"></label>
+             <input type="Phone" name="phone" id="name"placeholder="Your Phone number"required>
+             <input type="text" name="feedback" id="feedback"placeholder="Your Feedback"required><br>
+              <button class="button">Submit</button>
+           </form><br>
+        </section>
+   <div class="copyrightText"> 
+   <p>Copyright 2020<a href="#"> Made by Shara Ahmad & Shruti Chaube</a>.All Right Reserved</p></div>
 </body>
 </html>

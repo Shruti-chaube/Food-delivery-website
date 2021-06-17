@@ -60,6 +60,8 @@ p{
     .btn:hover{
         letter-spacing: 6px;
     }
+    
+
     nav{
         width: 100%;
         height: 75px;
@@ -70,16 +72,9 @@ p{
         
         font-family: 'Mate SC', serif;
     }
-    nav .logo{
-        font-size: 30px;
-        font-weight: bold;
-        letter-spacing: 1.5px;
-    }
-    nav .logo p{
-        float: left;
-        color:seashell;
-        text-transform: uppercase;
-    }
+   
+    
+    
     nav ul{
         float: right;
 
@@ -99,7 +94,7 @@ nav ul li a:hover{
     color: black;
 }
 nav ul li .active{
-    color: rgb(185, 58, 58);
+    color: brown;
 }
 
 section{
@@ -225,30 +220,25 @@ input,textarea ,select{
     
      letter-spacing: 6px;
  }
-
- .column {
-    float: left;
-    width: 35%;
-    padding: 10px;
-    height: 200px;
-    background-color:whitesmoke ;
-    margin-right: 25px;
-  }
- .column h3{
-     color:brown;
-     font-size: 35px;
- }
- 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-   
-  }
-.contact1{
-    border: 1px solid brown;
-    margin-top: 150px;
-    width:100%;
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px slid rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
-  
-  
+.copyrightText p{
+    color: #333;
+}
+.copyrightText a{
+    color: #ff0157;
+    font-weight: 500;
+    text-align: center;
+}
+.feedback{
+    background-color: rgb(218, 189, 189);
+}
+.order{
+    background-color: rgb(235, 189, 189) ;
+}
+.menu{
+    background-color: rgb(235, 197, 197) ;
+}  
