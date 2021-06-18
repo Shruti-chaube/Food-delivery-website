@@ -111,56 +111,49 @@
              <h4>Price:150Rs</h>
         </div>
        
+        
     </div>
    </div>
-  
-    
-   
-   <div class="title">
+  <div class="title">
     <a href="menu.html" class="btn">View All</a>
    </div>
 
    </section>
-  
- 
-
-  
-          <section  class="order" id="order">
+      <section  class="order" id="order">
            <h2 class="titleText"><span>O</span>rder now</h2>
            <div class="container">
-           <form action="index.php" method="post">
-             <input type="text" name="Name" id="name"placeholder="Your Name" required> 
-             <label for="Choice"></label>
-             <select id="choice" name=Your meal>
-               <option value=" Veg">Choose your Meal</option>
-                <option value=" Veg">pizza</option>
-                <option value="Veg">Noodles</option>
-                <option value="Veg">Burger</option>
-                <option value="Veg">Dosa</option>
-                <option value="Veg">cake</option>
-                <option value="Veg">momos</option>
-                <option value="Veg">pav-bhaji</option>
-                <option value="Veg">full thali</option>
+           <form action="first.php" method="post">
+             <input type="text" name="name" placeholder="Your Name" required> 
+             <select  id="shruti"name= "choice">
+               <option value=" choose">Choose your Meal</option>
+                <option value="pizza ">pizza</option>
+                <option value="Noodles">Noodles</option>
+                <option value="Burger">Burger</option>
+                <option value="Dosa">Dosa</option>
+                <option value="cake">cake</option>
+                <option value="momos">momos</option>
+                <option value="pav-bhaji">pav-bhaji</option>
+                <option value="full thali">full thali</option>
+               </select><br>
+             <input type="text" name="phone" placeholder="Your Phone number"required>
+             
+             <select id="shruti" name="qua"  >
+                <option value="1 ">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
              </select><br>
-             <input type="text" name="phone" id="name"placeholder="Your Phone number"required>
-             <label for="choice"></label>
-             <select id="choice" name=Your meal>
-               <option value=" Veg">Quantity</option>
-                <option value=" Veg">1</option>
-                <option value="Veg">2</option>
-                <option value="Veg">3</option>
-                <option value="Veg">4</option>
-                <option value="Veg">5</option>
-                <option value="Veg">6</option>
-                <option value="Veg">7</option>
-                <option value="Veg">8</option>
-                <option value="Veg">9</option>
-                <option value="Veg">10</option>
-             </select><br>
-             <input type="email" name="Email" id="email"placeholder="Your Email" required> 
+             <input type="email" name="email" placeholder="Your Email" required> 
              <label for="Choice"></label>
-             <input type="text" name="text" id="address"placeholder="Your Address"required><br>
-              <button class="button">Order</button>
+             <input type="text" name="add" placeholder="Your Address"required><br>
+              <button class="button"name ="insert">Order</button>
+             
            </form><br><br>
            <marquee direction="right"><i>Upto 50% off ORDER NOW</i></marquee>
            <p id="demo"></p>
@@ -178,14 +171,14 @@
 <section  class="feedback" id="feedback">
     <h2 class="titleText"><span>F</span>eedback</h2>
     <div class="container">
-        <form action="" method="post">
-            <input type="text" name="Name" id="name"placeholder="Your Name" required> 
+        <form action="second.php" method="post">
+            <input type="text" name="name" id="name"placeholder="Your Name" required> 
              <label for="Choice"></label>
-             <input type="email" name="Email" id="email"placeholder="Your Email" required> 
+             <input type="email" name="email" id="email"placeholder="Your Email" required> 
              <label for="Choice"></label>
              <input type="Phone" name="phone" id="name"placeholder="Your Phone number"required>
-             <input type="text" name="feedback" id="feedback"placeholder="Your Feedback"required><br>
-              <button class="button">Submit</button>
+             <input type="text" name="feed" id="feedback"placeholder="Your Feedback"required><br>
+              <button class="button"name ="insert">Submit</button>
            </form><br>
         </section>
    <div class="copyrightText"> 
