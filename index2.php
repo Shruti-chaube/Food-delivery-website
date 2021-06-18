@@ -9,9 +9,9 @@
   
 </head>
 <body>
-    <nav >
+  <header class="sticky">
   
-        <ul>
+        <ul class="navigation">
             
             <li><a class="active" href="#banner">Home</a></li>
             <li><a class="active" href="#about">About</a></li>
@@ -20,7 +20,7 @@
             <li><a class="active"  href="#feedback">Feedback</a></li>
 
         </ul>
-    </nav>
+  </header>
  
    <section class="banner" id="banner">
        <div class="content">
@@ -46,6 +46,8 @@
 </div>
 </div>
    </section>
+   <br>  <br>
+   <br>
    <section class="menu" id="menu">
    <div class="title">
     <h2 class="titleText">Our<span>M</span>enu</h2>
@@ -119,6 +121,7 @@
    </div>
 
    </section>
+   <br>   <br>   <br>
       <section  class="order" id="order">
            <h2 class="titleText"><span>O</span>rder now</h2>
            <div class="container">
@@ -161,6 +164,11 @@
            <script>
            const d = new Date();
            document.getElementById("demo").innerHTML = d;
+           window.addEventListener('scroll', function(){
+           const header= document.querySelector('header');
+           header.classlist.toggle("sticky", window.scrollY > 0);
+       });
+
            </script>
           </div>
          
@@ -168,6 +176,7 @@
 
         
 </section>
+<br><br><br>
 <section  class="feedback" id="feedback">
     <h2 class="titleText"><span>F</span>eedback</h2>
     <div class="container">
@@ -179,6 +188,7 @@
              <input type="Phone" name="phone" id="name"placeholder="Your Phone number"required>
              <input type="text" name="feed" id="feedback"placeholder="Your Feedback"required><br>
               <button class="button"name ="insert">Submit</button>
+            
            </form><br>
         </section>
    <div class="copyrightText"> 
