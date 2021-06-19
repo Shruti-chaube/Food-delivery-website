@@ -72,9 +72,6 @@ p{
         
         font-family: 'Mate SC', serif;
     }
-   
-    
-    
     header ul{
         float: right;
 
@@ -109,9 +106,6 @@ section{
 section p{
     font-size: 23px;
 }
-
-
-  
 .row .col50{
     position: relative;
     width: 48%;
@@ -243,7 +237,7 @@ input,textarea ,select{
     background-color: rgb(235, 197, 197) ;
 }  
 header.sticky{
-    background: rgb(169, 228, 187);
+    background: rgb(85, 196, 196);
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }

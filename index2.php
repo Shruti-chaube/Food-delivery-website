@@ -36,7 +36,7 @@
        <div class="row">
        <div class="col50">
            <h2 class="titleText"><span>A</span>bout Us</h2>
-           <p>People who love to eat are always the best people." "To eat is a necessity, but to eat intelligently is an art." "We all eat, an it would be a sad waste of opportunity to eat badly." "If you really want to make a friend, go to someone's house and eat with him...the people who give you their food give you their heart."</p>
+           <p>People who love to eat are always the best people." "To eat is a necessity, but to eat intelligently is an art." "We all eat, and it would be a sad waste of opportunity to eat badly." "If you really want to make a friend, go to someone's house and eat with him...the people who give you their food give you their heart."</p>
        </div>
 <div class="col50">
     <div class="imgBx">
@@ -51,14 +51,9 @@
    <section class="menu" id="menu">
    <div class="title">
     <h2 class="titleText">Our<span>M</span>enu</h2>
-    
-    
-
-
-   </div>
+    </div>
    <div class="content">
        <div class="box">
-         
            <div class="text">
                <h3>Special Burgers</h3>
                <h4>Price:129Rs</h>
@@ -170,11 +165,7 @@
        });
 
            </script>
-          </div>
-         
-
-
-        
+          </div>      
 </section>
 <br><br><br>
 <section  class="feedback" id="feedback">
