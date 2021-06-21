@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Now</title>
-    <link rel ="stylesheet"href="style/first.css">
+    <title>Feedback</title>
+    <link rel ="stylesheet"href="second.css">
 </head>
 <body>
- <?php
+<?php
    if(isset($_POST['insert']))
   {
   $con = mysqli_connect("localhost","root","");
   if($con)
  {
 //echo "Mysql connection ok..!<br>";
-mysqli_select_db($con,"website");
+mysqli_select_db($con,"feedback");
 $name = strval($_POST['name']);
 $phone = intval($_POST['phone']);
 $email = strval($_POST['email']); 
-$choice = strval($_POST['choice']);
-$qua = intval($_POST['qua']);
-$add = strval($_POST['add']);
-$insert = "insert into website(Name,PhoneNo,Email,Choice,Quantity,Address) VALUES('$name','$phone','$email','$choice','$qua','$add')";
+$feed = strval($_POST['feed']);
+$insert = "insert into feedback values('$name','$phone','$email','$feed')";
 if(mysqli_query($con,$insert))
 {
-    
-echo "Your Order has been placed!<br>";
+echo "Your Feedback was submitted!<br>";
 
 }
 else
@@ -37,5 +34,6 @@ mysqli_close($con);
 }
 }
 ?>
+   
 </body>
 </html>

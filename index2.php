@@ -112,7 +112,7 @@
     </div>
    </div>
   <div class="title">
-    <a href="menu.html" class="btn">View All</a>
+    <a href="style/menu.html" class="btn">View All</a>
    </div>
 
    </section>
@@ -120,7 +120,7 @@
       <section  class="order" id="order">
            <h2 class="titleText"><span>O</span>rder now</h2>
            <div class="container">
-           <form action="first.php" method="post">
+           <form action="style/first.php" method="post">
              <input type="text" name="name" placeholder="Your Name" required> 
              <select  id="shruti"name= "choice">
                <option value=" choose">Choose your Meal</option>
