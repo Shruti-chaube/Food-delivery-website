@@ -237,7 +237,7 @@ input,textarea ,select{
     background-color: rgb(235, 197, 197) ;
 }  
 header.sticky{
-    background: rgb(85, 196, 196);
+    background: rgb(166, 226, 166);
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
